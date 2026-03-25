@@ -1,0 +1,55 @@
+# VS Code-like cursor navigation (ported from iTerm2)
+
+# Cmd+Left/Right: jump to beginning/end of line
+keybind = super+left=text:\x01
+keybind = super+right=text:\x05
+
+# Alt+Left/Right: jump word left/right
+keybind = alt+left=text:\x1bb
+keybind = alt+right=text:\x1bf
+
+# Alt+Backspace: delete word backward
+keybind = alt+backspace=text:\x1b\x08
+
+# Alt+Delete: delete word forward
+keybind = alt+delete=text:\x1bd
+
+# Cmd+Backspace: delete to beginning of line
+keybind = super+backspace=text:\x15
+
+# Cmd+Delete: delete to end of line
+keybind = super+delete=text:\x0b
+
+# Cmd+Z / Cmd+Shift+Z: undo/redo (readline)
+keybind = super+z=text:\x1f
+keybind = super+shift+z=text:\x18\x1f
+
+# Cmd+Up/Down: scroll to top/bottom
+keybind = super+up=scroll_to_top
+keybind = super+down=scroll_to_bottom
+
+# Home/End (fn+Left/Right): beginning/end of line
+keybind = home=text:\x01
+keybind = end=text:\x05
+
+# fn+Up/Down (Page Up/Down): scroll to top/bottom
+keybind = page_up=scroll_to_top
+keybind = page_down=scroll_to_bottom
+
+# Cmd+Shift+Left/Right: select to beginning/end of line (in supported apps)
+keybind = super+shift+left=text:\x1b[1;2H
+keybind = super+shift+right=text:\x1b[1;2F
+
+# Alt+Shift+Left/Right: select word left/right (in supported apps)
+keybind = alt+shift+left=text:\x1b[1;10D
+keybind = alt+shift+right=text:\x1b[1;10C
+
+# Cmd+K: clear scrollback (like clearing a text area)
+keybind = super+k=clear_screen
+
+# Global hotkey to show/hide Ghostty (like iTerm2)
+keybind = global:super+^=toggle_visibility
+
+# Dim unfocused splits
+unfocused-split-opacity = 0.7
+unfocused-split-fill = 000000
