@@ -56,3 +56,6 @@ unfocused-split-fill = ffffff
 
 # Theme
 theme = Dark+
+
+# Skip confirmaption when closing windows with running processes
+confirm-close-surface = false
