@@ -51,5 +51,8 @@ keybind = super+k=clear_screen
 keybind = global:super+^=toggle_visibility
 
 # Dim unfocused splits
-unfocused-split-opacity = 0.7
-unfocused-split-fill = 000000
+unfocused-split-opacity = 0.8
+unfocused-split-fill = ffffff
+
+# Theme
+theme = Dark+
