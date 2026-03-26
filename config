@@ -61,3 +61,8 @@ theme = Harper
 confirm-close-surface = false
 
 split-divider-color = 666666
+
+
+# Workaround for copy and paste in search bar
+# https://github.com/ghostty-org/ghostty/issues/10749
+keybind = super+v=paste_from_clipboard
