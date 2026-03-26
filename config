@@ -51,11 +51,13 @@ keybind = super+k=clear_screen
 keybind = global:super+^=toggle_visibility
 
 # Dim unfocused splits
-unfocused-split-opacity = 0.8
+unfocused-split-opacity = 0.7
 unfocused-split-fill = ffffff
 
 # Theme
-theme = Dark+
+theme = Harper
 
 # Skip confirmaption when closing windows with running processes
 confirm-close-surface = false
+
+split-divider-color = 666666
