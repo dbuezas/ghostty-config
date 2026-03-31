@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pkill -USR2 -a ghostty)",
+      "Edit(config)"
+    ]
+  }
+}

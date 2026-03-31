@@ -57,7 +57,7 @@ unfocused-split-fill = ffffff
 # Theme
 theme = Harper
 
-# Skip confirmaption when closing windows with running processes
+# Skip confirmation when closing windows with running processes
 confirm-close-surface = false
 
 split-divider-color = 666666
@@ -66,3 +66,15 @@ split-divider-color = 666666
 # Workaround for copy and paste in search bar
 # https://github.com/ghostty-org/ghostty/issues/10749
 keybind = super+v=paste_from_clipboard
+
+# Command palette entry
+command-palette-entry = title:Edit Config,action:text:cd ~/.config/ghostty && code . && claude
+
+term = xterm-256color
+shell-integration-features = no-cursor
+cursor-style = block
+# macos-titlebar-style = hidden
+
+
+
+# reload config from the console with: `kill -USR2 $(pgrep -a ghostty)`
