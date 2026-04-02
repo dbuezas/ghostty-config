@@ -57,11 +57,15 @@ unfocused-split-fill = ffffff
 # Theme
 theme = Harper
 
+# Selection
+selection-clear-on-typing = true
+
 # Skip confirmation when closing windows with running processes
 confirm-close-surface = false
 
-split-divider-color = 666666
+split-divider-color = 888888
 
+auto-update = download
 
 # Workaround for copy and paste in search bar
 # https://github.com/ghostty-org/ghostty/issues/10749
