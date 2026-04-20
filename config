@@ -79,6 +79,9 @@ shell-integration-features = no-cursor
 cursor-style = block
 # macos-titlebar-style = hidden
 
-
+keybind = ctrl+cmd+left=resize_split:left,100
+keybind = ctrl+cmd+right=resize_split:right,100
+keybind = ctrl+cmd+up=resize_split:up,100
+keybind = ctrl+cmd+down=resize_split:down,100
 
 # reload config from the console with: `kill -USR2 $(pgrep -a ghostty)`
