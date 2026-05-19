@@ -73,6 +73,8 @@ keybind = super+v=paste_from_clipboard
 
 # Command palette entry
 command-palette-entry = title:Edit Config,action:text:cd ~/.config/ghostty && code . && claude
+command-palette-entry = title:Change theme: Breadog (light),action:"text:perl -i -pe 's/^theme = .*/theme = Breadog/' ~/.config/ghostty/config && kill -USR2 $(pgrep -a ghostty)\n"
+command-palette-entry = title:Change theme: Harper (dark),action:"text:perl -i -pe 's/^theme = .*/theme = Harper/' ~/.config/ghostty/config && kill -USR2 $(pgrep -a ghostty)\n"
 
 term = xterm-256color
 shell-integration-features = no-cursor
